@@ -85,3 +85,24 @@ footer .social-links a {
 footer .social-links a:hover {
   color: #ffc107;
 }
+
+#sobre {
+  max-width: 800px; /* Largura máxima para melhorar a legibilidade */
+  margin: 0 auto; /* Centraliza a seção */
+  padding: 20px; /* Adiciona espaçamento ao redor do conteúdo */
+  line-height: 1.6; /* Aumenta o espaçamento entre as linhas */
+  font-family: 'Arial', sans-serif; /* Escolhe uma fonte legível */
+  color: #333; /* Cor de texto escuro para melhorar o contraste */
+}
+
+#sobre h2 {
+  font-size: 2rem; /* Tamanho maior para o título */
+  color: #0056b3; /* Cor de destaque para o título */
+  text-align: center; /* Centraliza o título */
+  margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+#sobre p {
+  font-size: 1.1rem; /* Tamanho de fonte agradável para leitura */
+  margin-bottom: 15px; /* Espaçamento entre os parágrafos */
+}
