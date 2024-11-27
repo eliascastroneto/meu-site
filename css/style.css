@@ -68,6 +68,47 @@ p {
   text-align: left;
 }
 
+.projeto-item h3 {
+  font-size: 1.5rem;
+  color: #343a40;
+}
+
+.projeto-item .descricao-curta {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.projeto-item .btn-expandir {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.projeto-item .btn-expandir:hover {
+  background-color: #0056b3;
+}
+
+.projeto-item .descricao-longa {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+section#cursos-e-certificados {
+  background: #e9ecef;
+}
+
+.certificado-item {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: left;
+}
+
 footer {
   background: #343a40;
   color: #fff;
@@ -105,4 +146,79 @@ footer .social-links a:hover {
 #sobre p {
   font-size: 1.1rem; /* Tamanho de fonte agradável para leitura */
   margin-bottom: 15px; /* Espaçamento entre os parágrafos */
+}
+
+.recuo {
+  padding-right: 20px;
+  padding-left: 40px; /* Para garantir que o recuo à esquerda também seja consistente */
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+
+
+#cursos-e-certificados {
+  margin: 2rem 0;
+}
+
+.certificado-item {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.certificado-item h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.certificado-item p {
+  margin: 0.5rem 0;
+  color: #555;
+}
+
+.btn-download {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.btn-download:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+/* Botão "Voltar ao Topo" */
+#btn-topo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: #ffc107; /* Cor amarela */
+  color: black;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+#btn-topo:hover {
+  background-color: #ffdf7e;
+  transform: scale(1.1);
+}
+
+#btn-topo i {
+  font-size: 24px;
 }
