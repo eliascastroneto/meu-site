@@ -145,7 +145,18 @@ footer .social-links a:hover {
 
 #sobre p {
   font-size: 1.1rem; /* Tamanho de fonte agradável para leitura */
-  margin-bottom: 15px; /* Espaçamento entre os parágrafos */
+  margin-bottom: 1.5rem; /* Espaçamento entre os parágrafos */
+}
+
+#itens {
+  text-align: left;
+  padding-left: 80px;
+  margin-bottom: 2.2rem;
+  line-height: 1.6;
+}
+
+#sobre b {
+  color: #172230; /* cor para destacar as palavras em negrito */
 }
 
 .recuo {
@@ -259,3 +270,9 @@ footer .social-links a:hover {
     background-color: rgba(255, 255, 255, 0.8); /* Muda a cor ao passar o mouse */
     color: black;
   }
+
+
+
+  
+  
+  
